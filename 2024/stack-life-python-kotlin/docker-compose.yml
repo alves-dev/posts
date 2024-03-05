@@ -1,0 +1,73 @@
+version: "3.8"
+
+services:
+  broker:
+    image: rabbitmq:3.7-management
+    container_name: life-broker
+    ports:
+      - "35672:15672"
+    expose:
+      - 5672
+    volumes:
+      - ./definitions.json:/etc/rabbitmq/definitions.json
+    restart: always
+
+  mysql:
+    image: mysql:latest
+    container_name: life-db
+    environment:
+      MYSQL_ROOT_PASSWORD: 1qazxswedcvfrtgb
+    expose:
+      - 3306
+    restart: always
+
+  exercises:
+    environment:
+      - APPLICATION_ACADEMY_MINIMUM_MINUTES=0 # Defini o tempo minimo aceitavel para registrar o evento
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=1qazxswedcvfrtgb
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/life-exercise?createDatabaseIfNotExist=true&serverTimezone=America/Sao_Paulo
+      - SPRING_RABBITMQ_HOST=broker
+      - SPRING_RABBITMQ_PORT=5672
+      - SPRING_RABBITMQ_USERNAME=manager
+      - SPRING_RABBITMQ_PASSWORD=654321
+    container_name: life-exercises
+    image: ghcr.io/alves-dev/life-exercises:20240304
+    restart: always
+    depends_on:
+      - mysql
+      - broker
+
+  ha-link:
+    environment:
+      - 'PERSON_UUIDS={"joao": "0526b49d-b75f-4555-a954-986c1bc7c362", "maria": "b531b53a-e54c-4cac-9345-a3e6af3c3a75"}'
+      - API_KEY=b531b533e6af3c3a75
+      - BROKER_HOST=broker
+      - BROKER_PORT=5672
+      - BROKER_USERNAME=manager
+      - BROKER_PASSWORD=654321
+      - BROKER_EXCHANGE=events.v1
+      - BROKER_ROUTING_KEY=person_tracking
+    container_name: life-ha-link
+    image: ghcr.io/alves-dev/life-assistant-link:20240305
+    ports:
+      - 4321:3001
+    depends_on:
+      - broker
+    restart: always
+
+  grafana:
+    container_name: life-grafana
+    image: grafana/grafana-oss:10.2.4
+    ports:
+      - "3333:3333"
+    environment:
+      - GF_SECURITY_ADMIN_USER=grafana
+      - GF_SECURITY_ADMIN_PASSWORD=grafana
+      - GF_SECURITY_ALLOW_EMBEDDING=True
+      - GF_SERVER_HTTP_PORT=3333
+    volumes:
+      - ./provisioning:/etc/grafana/provisioning
+    depends_on:
+      - mysql
+    restart: always
