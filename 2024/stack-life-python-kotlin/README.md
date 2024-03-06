@@ -50,7 +50,7 @@ docker compose -p life down
 
 Deletar as imagens uyilizadas
 ```shell
-docker rmi $(docker images | grep 'ghcr.io/alves-dev/life')
+docker rmi $(docker image ls --filter=reference="ghcr.io/alves-dev/life*" --format "{{.ID}}")
 ```
 
 -----
