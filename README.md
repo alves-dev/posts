@@ -1,2 +1,3 @@
-# posts
-Repo onde contém códigos referentes as minhas postagens
+# Posts
+
+### Repo onde contém códigos referentes as minhas postagens
