@@ -142,9 +142,9 @@
       },
       "properties": {
         "id": 14273913441,
+        "date": "2025-04-24T13:26:55Z",
         "name": "Pedalada vespertina",
-        "distance": 833.4,
-        "moving_time": 333,
+        "distance": 0.833,
         "type": "Ride"
       }
     },
@@ -1577,9 +1577,9 @@
       },
       "properties": {
         "id": 14236811317,
+        "date": "2025-04-20T17:41:43Z",
         "name": "Corrida vespertina",
-        "distance": 13003.6,
-        "moving_time": 5028,
+        "distance": 13.003,
         "type": "Run"
       }
     },
@@ -2916,9 +2916,9 @@
       },
       "properties": {
         "id": 13781218506,
+        "date": "2025-03-03T17:42:59Z",
         "name": "Corrida vespertina",
-        "distance": 10002.3,
-        "moving_time": 3867,
+        "distance": 10.002,
         "type": "Run"
       }
     },
@@ -3895,9 +3895,9 @@
       },
       "properties": {
         "id": 13168730192,
+        "date": "2024-12-22T10:42:01Z",
         "name": "Caminhada matinal",
-        "distance": 5001.4,
-        "moving_time": 3602,
+        "distance": 5.001,
         "type": "Walk"
       }
     },
@@ -4718,9 +4718,9 @@
       },
       "properties": {
         "id": 12942879930,
+        "date": "2024-11-20T07:34:59Z",
         "name": "Corrida zumbi dos Palmares",
-        "distance": 5162.7,
-        "moving_time": 1424,
+        "distance": 5.162,
         "type": "Run"
       }
     },
@@ -6129,9 +6129,9 @@
       },
       "properties": {
         "id": 12817258484,
+        "date": "2024-11-03T19:08:59Z",
         "name": "Corrida ao entardecer",
-        "distance": 11007.7,
-        "moving_time": 3518,
+        "distance": 11.007,
         "type": "Run"
       }
     },
@@ -6472,9 +6472,9 @@
       },
       "properties": {
         "id": 12649417282,
+        "date": "2024-10-13T18:52:47Z",
         "name": "Corrida ao entardecer",
-        "distance": 3009.4,
-        "moving_time": 1209,
+        "distance": 3.009,
         "type": "Run"
       }
     },
@@ -7387,9 +7387,9 @@
       },
       "properties": {
         "id": 12594161772,
+        "date": "2024-10-06T20:29:30Z",
         "name": "Corrida ao entardecer",
-        "distance": 6012.1,
-        "moving_time": 2232,
+        "distance": 6.012,
         "type": "Run"
       }
     },
@@ -8254,9 +8254,9 @@
       },
       "properties": {
         "id": 12446006616,
+        "date": "2024-09-18T19:05:26Z",
         "name": "Corrida ao entardecer",
-        "distance": 5223.7,
-        "moving_time": 2910,
+        "distance": 5.223,
         "type": "Run"
       }
     },
@@ -9081,9 +9081,9 @@
       },
       "properties": {
         "id": 12379079653,
+        "date": "2024-09-10T19:29:09Z",
         "name": "Corrida ao entardecer",
-        "distance": 5037.4,
-        "moving_time": 1782,
+        "distance": 5.037,
         "type": "Run"
       }
     },
@@ -9392,9 +9392,9 @@
       },
       "properties": {
         "id": 12351630566,
+        "date": "2024-09-07T14:01:30Z",
         "name": "Caminhada vespertina",
-        "distance": 1865.1,
-        "moving_time": 1158,
+        "distance": 1.865,
         "type": "Walk"
       }
     },
@@ -10715,9 +10715,9 @@
       },
       "properties": {
         "id": 12302295617,
+        "date": "2024-09-01T18:37:03Z",
         "name": "Corrida ao entardecer",
-        "distance": 10013.0,
-        "moving_time": 3985,
+        "distance": 10.013,
         "type": "Run"
       }
     },
@@ -11242,9 +11242,9 @@
       },
       "properties": {
         "id": 12165665588,
+        "date": "2024-08-16T18:37:42Z",
         "name": "Caminhada ao entardecer",
-        "distance": 2720.6,
-        "moving_time": 1697,
+        "distance": 2.72,
         "type": "Walk"
       }
     },
@@ -12629,9 +12629,9 @@
       },
       "properties": {
         "id": 12123892463,
+        "date": "2024-08-11T18:02:42Z",
         "name": "Caminhada ao entardecer",
-        "distance": 7558.8,
-        "moving_time": 4743,
+        "distance": 7.558,
         "type": "Walk"
       }
     },
@@ -13440,9 +13440,9 @@
       },
       "properties": {
         "id": 11947801321,
+        "date": "2024-07-21T18:41:41Z",
         "name": "Caminhada ao entardecer",
-        "distance": 5617.0,
-        "moving_time": 2671,
+        "distance": 5.617,
         "type": "Walk"
       }
     },
@@ -14783,9 +14783,9 @@
       },
       "properties": {
         "id": 11889915971,
+        "date": "2024-07-14T18:01:26Z",
         "name": "Caminhada ao entardecer",
-        "distance": 6877.6,
-        "moving_time": 3696,
+        "distance": 6.877,
         "type": "Walk"
       }
     },
@@ -16298,9 +16298,9 @@
       },
       "properties": {
         "id": 11723690074,
+        "date": "2024-06-23T17:29:46Z",
         "name": "Corrida vespertina",
-        "distance": 10910.0,
-        "moving_time": 4760,
+        "distance": 10.91,
         "type": "Run"
       }
     },
@@ -17641,9 +17641,9 @@
       },
       "properties": {
         "id": 11615629902,
+        "date": "2024-06-09T18:15:52Z",
         "name": "Corrida ao entardecer",
-        "distance": 15008.2,
-        "moving_time": 6588,
+        "distance": 15.008,
         "type": "Run"
       }
     },
@@ -18348,9 +18348,9 @@
       },
       "properties": {
         "id": 11559632845,
+        "date": "2024-06-02T19:11:21Z",
         "name": "Corrida ao entardecer",
-        "distance": 3984.3,
-        "moving_time": 1502,
+        "distance": 3.984,
         "type": "Run"
       }
     },
@@ -19747,9 +19747,9 @@
       },
       "properties": {
         "id": 11451260764,
+        "date": "2024-05-19T18:05:22Z",
         "name": "Corrida ao entardecer",
-        "distance": 12000.4,
-        "moving_time": 4471,
+        "distance": 12.0,
         "type": "Run"
       }
     }
