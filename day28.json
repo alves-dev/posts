@@ -193,7 +193,7 @@
                 "date": "2025-04-27 17:24",
                 "distance": "2.3 km",
                 "type": "Ride",
-                "color": "dark-yellow"
+                "color": 1
             }
         },
         {
@@ -1372,7 +1372,7 @@
                 "date": "2025-04-27 17:35",
                 "distance": "9.0 km",
                 "type": "Run",
-                "color": "dark-orange"
+                "color": 2
             }
         },
         {
@@ -1615,7 +1615,7 @@
                 "date": "2025-04-27 18:35",
                 "distance": "2.9 km",
                 "type": "Ride",
-                "color": "dark-yellow"
+                "color": 1
             }
         }
     ]
