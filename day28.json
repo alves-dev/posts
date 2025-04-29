@@ -191,10 +191,9 @@
             "properties": {
                 "id": 14306453286,
                 "date": "2025-04-27 17:24",
-                "name": "Pedalada vespertina",
                 "distance": "2.3 km",
                 "type": "Ride",
-                "color": "blue"
+                "color": "dark-yellow"
             }
         },
         {
@@ -1371,10 +1370,9 @@
             "properties": {
                 "id": 14306794586,
                 "date": "2025-04-27 17:35",
-                "name": "Corrida vespertina",
                 "distance": "9.0 km",
                 "type": "Run",
-                "color": "green"
+                "color": "dark-orange"
             }
         },
         {
@@ -1615,10 +1613,9 @@
             "properties": {
                 "id": 14306869074,
                 "date": "2025-04-27 18:35",
-                "name": "Pedalada ao entardecer",
                 "distance": "2.9 km",
                 "type": "Ride",
-                "color": "blue"
+                "color": "dark-yellow"
             }
         }
     ]
