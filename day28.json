@@ -193,7 +193,8 @@
                 "date": "2025-04-27 17:24",
                 "name": "Pedalada vespertina",
                 "distance": "2.3 km",
-                "type": "Ride"
+                "type": "Ride",
+                "color": "blue"
             }
         },
         {
@@ -1372,7 +1373,8 @@
                 "date": "2025-04-27 17:35",
                 "name": "Corrida vespertina",
                 "distance": "9.0 km",
-                "type": "Run"
+                "type": "Run",
+                "color": "green"
             }
         },
         {
@@ -1615,7 +1617,8 @@
                 "date": "2025-04-27 18:35",
                 "name": "Pedalada ao entardecer",
                 "distance": "2.9 km",
-                "type": "Ride"
+                "type": "Ride",
+                "color": "blue"
             }
         }
     ]
