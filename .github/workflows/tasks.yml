@@ -6,6 +6,6 @@ on:
 
 jobs:
   tasks:
-    uses: alves-dev/actions/.github/workflows/tasks.yml@v1
+    uses: alves-dev/actions/.github/workflows/tasks.yml@v2
     with:
       repo-name: alves-dev/posts
