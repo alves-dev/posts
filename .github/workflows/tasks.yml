@@ -1,0 +1,11 @@
+name: tasks
+
+on:
+  push:
+    branches: main
+
+jobs:
+  tasks:
+    uses: alves-dev/actions/.github/workflows/tasks.yml@v1
+    with:
+      repo-name: alves-dev/posts
