@@ -1,6 +1,6 @@
 project:
   title: &project_title Posts
-  description: &project_description Repositório onde contém códigos referentes as minhas postagens
+  description: &project_description Repositório onde contém códigos referentes as minhas postagens em outras plataformas
   status: &project_status Depreciado # desenvolvimento, Finalizado
   license: &project_license GPL-3 # GPL-3 MIT
 detail:
@@ -10,7 +10,7 @@ detail:
   topics: &topics
     - posts
     - documentation
-    - com espaço
+    - no-espace
     - com-hífen
 head:
   version: v1
