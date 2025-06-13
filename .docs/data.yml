@@ -11,7 +11,7 @@ detail:
     - posts
     - documentation
     - no-espace
-    - com-hífen
+    - com-hifen
 head:
   version: v1
   title: *project_title
