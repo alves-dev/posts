@@ -1,0 +1,23 @@
+project:
+  title: &project_title Posts
+  description: &project_description Repositório onde contém códigos referentes as minhas postagens
+  status: &project_status Depreciado # desenvolvimento, Finalizado
+  license: &project_license GPL-3 # GPL-3 MIT
+detail:
+  version: v1
+  description: *project_description
+  website:
+  topics: &topics
+    - posts
+    - documentation
+    - com espaço
+    - com-hífen
+head:
+  version: v1
+  title: *project_title
+  description: *project_description
+  status: *project_status
+  topics: *topics
+footer:
+  version: v1
+  license: *project_license
